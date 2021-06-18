@@ -45,7 +45,7 @@ button:focus {
 
 button.ghost {
     background-color: transparent;
-    border-color: #000000;
+    border-color: #ffffff;
 }
 
 form {
@@ -68,8 +68,8 @@ input {
 }
 
 body {
-    background: -webkit-linear-gradient(to right, #ff7878, #582626);
-    background: linear-gradient(to right, #ff7878, #582626);
+    background: -webkit-linear-gradient(to right, #ff7878, #a50101);
+    background: linear-gradient(to right, #ff7878, #a50101);
 }
 
 
@@ -93,11 +93,12 @@ body {
     box-shadow: 0 15px 30px rgba(22, 22, 22, 0.22), 0 10px 10px rgba(44, 44, 44, 0.44);
     position: relative;
     overflow: hidden;
-    width: 768px;
+    width: 50%;
     max-width: 100%;
+    min-width: 480px;
     min-height: 480px;
     left: 24%;
-    top: 120px;
+    top: 100px;
 }
 .form-container {
     position: absolute;
@@ -161,8 +162,8 @@ body {
 
 .overlay {
     background: #ff416c;
-    background: -webkit-linear-gradient(to right, #ff7878, #582626);
-    background: linear-gradient(to right, #ff7878, #582626);
+    background: -webkit-linear-gradient(to right, #ff7878, #a50101);
+    background: linear-gradient(to right, #ff7878, #a50101);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;
