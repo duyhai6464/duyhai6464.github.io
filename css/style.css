@@ -2,7 +2,6 @@ h1 {
     font-weight: bold;
     margin: 1;
 }
-
 p {
     font-size: 14px;
     font-weight: 100;
@@ -10,18 +9,15 @@ p {
     letter-spacing: 0.5px;
     margin: 20px 0 30px;
 }
-
 span {
     font-size: 12px;
 }
-
 a {
     color: #333;
     font-size: 14px;
     text-decoration: none;
     margin: 15px 0;
 }
-
 button {
     border-radius: 20px;
     border: 1px solid #000000;
@@ -34,20 +30,16 @@ button {
     text-transform: uppercase;
     transition: transform 80ms ease-in;
 }
-
 button:active {
     transform: scale(0.95);
 }
-
 button:focus {
     outline: navajowhite;
 }
-
 button.ghost {
     background-color: transparent;
     border-color: #ffffff;
 }
-
 form {
     background-color: #ffffff;
     display: flex;
@@ -58,7 +50,6 @@ form {
     height: 100%;
     text-align: center;
 }
-
 input {
     background-color: #eee;
     border: none;
@@ -66,17 +57,17 @@ input {
     margin: 8px 0;
     width: 100%;
 }
-
 body {
     background: -webkit-linear-gradient(to right, #ff7878, #a50101);
     background: linear-gradient(to right, #ff7878, #a50101);
+    background-attachment: fixed;
+    max-width: 100%;
+    min-height: 480px;
 }
-
 
 .social-container {
     margin: 20px 0;
 }
-
 .social-container a {
     border: 1px solid #dddddd;
     border-radius: 50%;
@@ -86,7 +77,11 @@ body {
     margin: 0 5px;
     height: 40px;
     width: 40px;
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico);
+    background-position: center;
+    background-size: cover;
 }
+
 .container {
     background-color: #ffffff;
     border-radius: 10px;
@@ -95,7 +90,7 @@ body {
     overflow: hidden;
     width: 50%;
     max-width: 100%;
-    min-width: 480px;
+    min-width: 450px;
     min-height: 480px;
     left: 24%;
     top: 100px;
